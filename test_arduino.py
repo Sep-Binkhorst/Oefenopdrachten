@@ -8,4 +8,5 @@ device = rm.open_resource(
     "ASRL8::INSTR", read_termination="\r\n", write_termination="\n")
     
 identification = device.query("*IDN?")
-print(identification)
+
+print("GitHub testen")
